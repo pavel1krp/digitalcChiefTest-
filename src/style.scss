@@ -2,6 +2,15 @@
 html{
   font-family: 'Poppins', sans-serif;
 }
+.title{
+  font-size: 16px;
+  color: #000000;
+  padding: 10px 0 0 15px;;
+}
+.subtitle{
+  font-size: 36px;
+  margin: 0px;
+}
 .font-16px{
   font-size: 16px;
   font-weight: bold;
@@ -28,13 +37,12 @@ html{
   &-wrapper{
     display: flex;
     justify-content: space-between;
-    max-width: 1920px;
     .socials-wrapper{
       transform: rotate(-90deg);
     }
     .header-content{
-      max-width: 1920px;
-      padding: 206px;
+      width: 1140px;
+      padding: 206px 0;
     }
   }
   .burger{
@@ -50,6 +58,25 @@ html{
       &:nth-child(2){
         width: 36px;
       }
+    }
+  }
+}
+.contact-me{
+  &-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 68px;
+    .background-photo{
+      background: url(/src/assets/images/Photo.png);
+      width: 400px;
+      height: 600px;
+    }
+  }
+  &-about{
+    .dash{
+      width: 60px;
+      height: 2px;
+      color: #FFA501;
     }
   }
 }

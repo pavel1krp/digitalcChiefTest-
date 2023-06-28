@@ -3,6 +3,17 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
+.title {
+  font-size: 16px;
+  color: #000000;
+  padding: 10px 0 0 15px;
+}
+
+.subtitle {
+  font-size: 36px;
+  margin: 0px;
+}
+
 .font-16px {
   font-size: 16px;
   font-weight: bold;
@@ -33,14 +44,13 @@ html {
 .header-wrapper {
   display: flex;
   justify-content: space-between;
-  max-width: 1920px;
 }
 .header-wrapper .socials-wrapper {
   transform: rotate(-90deg);
 }
 .header-wrapper .header-content {
-  max-width: 1920px;
-  padding: 206px;
+  width: 1140px;
+  padding: 206px 0;
 }
 .header .burger {
   display: flex;
@@ -56,6 +66,22 @@ html {
 }
 .header .burger-dash:nth-child(2) {
   width: 36px;
+}
+
+.contact-me-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 68px;
+}
+.contact-me-wrapper .background-photo {
+  background: url(/src/assets/images/Photo.png);
+  width: 400px;
+  height: 600px;
+}
+.contact-me-about .dash {
+  width: 60px;
+  height: 2px;
+  color: #FFA501;
 }
 
 /*# sourceMappingURL=style.css.map */

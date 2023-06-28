@@ -1,0 +1,61 @@
+@import url(/src/normilize.css);
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-16px {
+  font-size: 16px;
+  font-weight: bold;
+  text-wrap: nowrap;
+  padding: 10px;
+}
+
+.navigation {
+  display: none;
+}
+
+.orange-circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #FFA501;
+}
+
+.about-me {
+  font-size: 48px;
+  font-weight: bold;
+  max-width: 532px;
+}
+
+.header {
+  background: url(/src/assets/images/Background.jpg);
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1920px;
+}
+.header-wrapper .socials-wrapper {
+  transform: rotate(-90deg);
+}
+.header-wrapper .header-content {
+  max-width: 1920px;
+  padding: 206px;
+}
+.header .burger {
+  display: flex;
+  gap: 6px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px 30px 0 0;
+}
+.header .burger-dash {
+  background-color: #151812;
+  height: 3px;
+  width: 30px;
+}
+.header .burger-dash:nth-child(2) {
+  width: 36px;
+}
+
+/*# sourceMappingURL=style.css.map */
